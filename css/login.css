@@ -34,7 +34,7 @@ button {
 
 .modal {
     display: none; /* Hidden by default */
-    position: fixed;  /*Stay in place */ 
+    position: fixed;  /*Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
@@ -70,3 +70,44 @@ button {
     cursor: pointer;
 }
 
+  /* Set the whole body into black*/
+  body{
+    background-color: black;
+  }
+
+  /* Color and font size of category*/
+  .container h3{
+    color: white;
+  }
+  .container h3 a{
+    font-size: 14px;
+  }
+  /* Remove the navbar's default rounded borders and increase the bottom margin */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  /* Remove the jumbotron's default bottom margin */
+   .jumbotron {
+    margin-bottom: 0;
+  }
+
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+.carousel-inner {
+    max-height: 400px;
+    margin-bottom: 50px;
+    border-radius: 0;
+  }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    max-height: 400px;
+    /*width: 70%;*/
+    margin: auto;
+}
